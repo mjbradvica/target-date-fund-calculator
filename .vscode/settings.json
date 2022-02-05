@@ -1,0 +1,11 @@
+{
+    "files.eol": "\n",
+	"files.autoSave": "onFocusChange",
+	"editor.formatOnSave": true,
+	"files.exclude": {
+		"**/dist": true,
+		"**/node_modules": true
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSaveMode": "file"
+}
