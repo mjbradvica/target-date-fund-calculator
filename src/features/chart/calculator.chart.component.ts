@@ -12,7 +12,7 @@ export class CalculatorChartComponent implements AfterViewInit, OnInit {
 
 	ngAfterViewInit(): void {
 		const ctx = document.getElementById('myChart') as HTMLCanvasElement;
-		const chart = new Chart(ctx, {
+		new Chart(ctx, {
 			type: 'bar',
 			data: {
 				labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
